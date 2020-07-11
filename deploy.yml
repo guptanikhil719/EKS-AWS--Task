@@ -17,7 +17,7 @@ spec:
         app: kubernetes
     spec:
       containers:
-      - image: ashwani2399/webserver:v1
+      - image: nikhil2399/webserver:v1
         name: kubernetes
         volumeMounts:
         - name: myweb-persistent-storage
